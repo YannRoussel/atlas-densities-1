@@ -84,7 +84,7 @@ def _check_probability_map_consistency(
             "chc", "lac").
         layer_names: set of layer names specified in the metadata json file.
         molecular_types: set of molecular types a.k.a gene marker types,
-            e.g., "pv", "sst", "vip", "gad67", "htr3a".
+            e.g., "pv", "sst", "vip", "gad67".
     """
     if "layer_1_gad67" not in probability_map.index:
         raise AtlasDensitiesError(
